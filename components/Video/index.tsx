@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Nous sommes prêts à vous aider"
+          paragraph="Découvrez notre vidéo illustrant nos services, allant de l'installation d'équipements informatiques à la sécurisation des établissements avec des systèmes de surveillance et d'alarme, le tout conçu sur mesure pour répondre aux besoins spécifiques des entreprises et des établissements scolaires."
           center
           mb="80px"
         />

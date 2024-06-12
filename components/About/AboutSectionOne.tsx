@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Conçu pour les sites de démarrage et professionnels."
+                paragraph="L'objectif principal est de se concentrer sur l'éducation des participants sur la meilleure façon de protéger les applications métier hautement vulnérables avec des tables rondes et des tables rondes interactives."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Developpement Web et Mobile" />
+                    <List text="Conception ligiciel" />
+                    <List text="Conception graphisme " />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Installation video surveillance" />
+                    <List text="Maintenance informataue et reseau" />
+                    <List text="Vente du materil informatique" />
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about-image.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
@@ -67,6 +67,32 @@ const AboutSectionOne = () => {
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
+              <div className="w-full px-4 lg:w-1/2">
+              <div className="wow fadeInUp relative mx-auto max-w-[500px] lg:mr-0" data-wow-delay=".2s">
+                {/* Première image occupant toute la hauteur */}
+                <Image
+                  src="/images/about/about-image.jpg"
+                  alt="Image 1"
+                  fill
+                  className="drop-shadow-three mx-auto h-full max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                />
+              </div>
+              <div className="wow fadeInUp relative mx-auto max-w-[500px] lg:mr-0" data-wow-delay=".2s">
+                {/* Deux images alignées verticalement */}
+                <Image
+                  src="/images/about/about-image.jpg"
+                  alt="Image 2"
+                  fill
+                  className="drop-shadow-three mx-auto h-1/2 max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                />
+                <Image
+                  src="/images/about/about-image.jpg"
+                  alt="Image 3"
+                  fill
+                  className="drop-shadow-three mx-auto h-1/2 max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                />
+              </div>
+            </div>
             </div>
           </div>
         </div>

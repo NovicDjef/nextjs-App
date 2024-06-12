@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Tagne Gille",
+    designation: "Cadre chez Orange Cameroun",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "je suis tres satisfait du services rendu par Innova tech solution pour l'installation des cameras de surveillance que je peux controller a partir de mon telephone portable n'importe ou.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    designation: "Founder @AfroTech Sarl",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "En temps que manager je suis satisfait du service rendu par Innova Tech Solution dans le cadre de l'equipement en materiel informatique dans les locaux de mon entreprise.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    designation: "Proviseur @Lycee Bafang",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "C'est avec le plus grand sourire que je remercie er felicite cette jeune entreprise pleine de dinamisme et de tetermination. je n'avais jamais ete qutqnt satisfait d'une prestation de services comme ceci. ",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Ce que disent nos utilisateurs"
+          paragraph="Nos utilisateurs louent notre service pour sa fiabilité, son efficacité et notre support client réactif. Découvrez leurs témoignages inspirants."
           center
         />
 

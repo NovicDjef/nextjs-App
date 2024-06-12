@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Conception et maintenance des sites Web",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Nous developpons des site web selon votre convenance pour vous permettre d'attirer d'avantage de la visibilite dans votre activite.",
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
       designation: "Graphic Designer",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["creative & design"],
+    publishDate: "2023",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Installation des camera video surveillance",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "plus de panique maintenant vous pouvez vous faire installer les videos surveillance et controler a distance a partir de votre telephone portable.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Service Installation",
     },
     tags: ["computer"],
-    publishDate: "2025",
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Installation d'equipements Informatique.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Vente du materiel informatique, reseau telecomunication et installation des salles informatiques d'entreprise et ou d'etablissement scolaire.",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "marketing manager",
     },
     tags: ["design"],
-    publishDate: "2025",
+    publishDate: "2024",
   },
 ];
 export default blogData;

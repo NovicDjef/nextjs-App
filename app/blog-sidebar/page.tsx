@@ -21,8 +21,7 @@ const BlogSidebarPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  Materiels Informatique que nous commercialisons et faisons de la maintenance.
                 </h1>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -38,7 +37,7 @@ const BlogSidebarPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span> Musharof Chy</span>
+                          By <span> Innova Tech Solution</span>
                         </span>
                       </div>
                     </div>
@@ -106,9 +105,7 @@ const BlogSidebarPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Depuis quelque annee deja nous oeuvrons dans l'innovation technologique a travers la resolution des problemes dans les intreprises, les etablissements scolaire et chez les particulies.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -370,12 +367,12 @@ const BlogSidebarPage = () => {
               </div>
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                  Related Posts
+                  Materiel a vendre
                 </h3>
                 <ul className="p-8">
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="Best way to boost your online sales."
+                      title="Ordinateurs"
                       image="/images/blog/post-01.jpg"
                       slug="#"
                       date="12 Feb 2025"
@@ -383,7 +380,23 @@ const BlogSidebarPage = () => {
                   </li>
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="50 Best web design tips & tricks that will help you."
+                      title="Video Projecteurs."
+                      image="/images/blog/post-02.jpg"
+                      slug="#"
+                      date="15 Feb, 2024"
+                    />
+                  </li>
+                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                    <RelatedPost
+                      title="Equipement reseau."
+                      image="/images/blog/post-02.jpg"
+                      slug="#"
+                      date="15 Feb, 2024"
+                    />
+                  </li>
+                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                    <RelatedPost
+                      title="Equipement reseau."
                       image="/images/blog/post-02.jpg"
                       slug="#"
                       date="15 Feb, 2024"
@@ -391,7 +404,7 @@ const BlogSidebarPage = () => {
                   </li>
                   <li>
                     <RelatedPost
-                      title="The 8 best landing page builders, reviewed"
+                      title="Camera de surveillance"
                       image="/images/blog/post-03.jpg"
                       slug="#"
                       date="05 Jun, 2024"
@@ -399,7 +412,7 @@ const BlogSidebarPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+              {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Popular Category
                 </h3>
@@ -445,7 +458,7 @@ const BlogSidebarPage = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Popular Tags

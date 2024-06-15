@@ -14,7 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="Nous sommes prêts à vous aider"
-          paragraph="Découvrez notre vidéo illustrant nos services, allant de l'installation d'équipements informatiques à la sécurisation des établissements avec des systèmes de surveillance et d'alarme, le tout conçu sur mesure pour répondre aux besoins spécifiques des entreprises et des établissements scolaires."
+          paragraph="Découvrez notre vidéo illustrant nos services, allant de l'installation d'équipements informatiques à la sécurisation des établissements avec des systèmes de videos surveillance et d'alarme, le tout conçu sur mesure pour répondre aux besoins spécifiques des entreprises et des établissements scolaires."
           center
           mb="80px"
         />

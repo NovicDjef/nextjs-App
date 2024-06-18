@@ -107,7 +107,7 @@ const BlogSidebarPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Depuis quelque annee deja nous fornissons le materiel informatique dans different secteurs d'activites: intreprises, etablissements scolaire et chez les particulies.
+                    Depuis quelque annee deja nous fornissons le materiel informatique dans different secteurs d activites: intreprises, etablissements scolaire et chez les particulies.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -202,7 +202,7 @@ const BlogSidebarPage = () => {
                 
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                     La satisfaction de nos clients est une priorite absolut dans notre philosophie de travail. fait nous confiance et vous serez d'avantage surpris de notre efficacite.
+                     La satisfaction de nos clients est une priorite absolut dans notre philosophie de travail. fait nous confiance et vous serez d avantage surpris de notre efficacite.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg

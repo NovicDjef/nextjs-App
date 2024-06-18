@@ -12,27 +12,31 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+              <div className="mb-2 max-w-[180px] lg:mb-2">
+                <Link href="/" className="mb-2 inline-block">
                   <Image
                     src="/images/logo/logo2.png"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    width={100}
+                  height={30}
                   />
                   <Image
                     src="/images/logo/logo2.png"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
+                    width={100}
                     height={30}
                   />
                 </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                
+               
+              </div>
+              <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Le digital au coeur de l evolution de notre societe; votre satisfaction notre priorite.
                 </p>
                 <div className="flex items-center">
+                  
                   <a
                     href="/"
                     aria-label="social-link"
@@ -90,21 +94,28 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-4/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                 Liens utiles
                 </h2>
                 <ul>
+                <li>
+                    <a
+                      href="/error"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                      à propos
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="/error"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Blog 
                     </a>
                   </li>
                   <li>
@@ -115,7 +126,7 @@ const Footer = () => {
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      à propos
+                      Tel: +237 699251140 / 677052106
                     </a>
                   </li>
                   <li>
@@ -130,20 +141,13 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Termes
                 </h2>
                 <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      TOS
-                    </a>
-                  </li>
+                 
                   <li>
                     <a
                       href="/"
@@ -155,7 +159,7 @@ const Footer = () => {
                   
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
@@ -176,18 +180,18 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Condiction d utilisation
+                      Condiction d utilisation  Politique de confidentialite
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/about"
+                      href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      tel: +237 699251140
+                      Politique de confidentialite
                     </a>
                   </li>
-                
+
                 </ul>
               </div>
             </div>

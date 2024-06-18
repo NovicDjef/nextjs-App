@@ -80,5 +80,11 @@ const menuData: Menu[] = [
       // },
     ],
   },
+  {
+    id: 5,
+    title: "Produits en Vente ",
+    path: "/blog-sidebar",
+    newTab: false,
+  },
 ];
 export default menuData;

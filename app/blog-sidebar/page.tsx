@@ -5,6 +5,8 @@ import NewsLatterBox from "@/components/Contact/NewsLatterBox";
 import Image from "next/image";
 
 import { Metadata } from "next";
+import Listproduit from "@/components/Blog/Listproduit";
+import produitData from "@/components/Blog/ListproduitData";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -21,7 +23,7 @@ const BlogSidebarPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  Materiels Informatique que nous commercialisons et faisons de la maintenance.
+                  Vente et maintenance du materiel reseaux et Informatique general.
                 </h1>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -76,7 +78,7 @@ const BlogSidebarPage = () => {
                             <path d="M11.0529 6.55322H4.69668C4.41543 6.55322 4.19043 6.77822 4.19043 7.05947C4.19043 7.34072 4.41543 7.56572 4.69668 7.56572H11.0811C11.3623 7.56572 11.5873 7.34072 11.5873 7.05947C11.5873 6.77822 11.3342 6.55322 11.0529 6.55322Z" />
                           </svg>
                         </span>
-                        50
+                        350
                       </p>
                       <p className="flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -90,7 +92,7 @@ const BlogSidebarPage = () => {
                             <path d="M19.7559 5.625C17.6934 2.375 14.1309 0.4375 10.2559 0.4375C6.38086 0.4375 2.81836 2.375 0.755859 5.625C0.630859 5.84375 0.630859 6.125 0.755859 6.34375C2.81836 9.59375 6.38086 11.5312 10.2559 11.5312C14.1309 11.5312 17.6934 9.59375 19.7559 6.34375C19.9121 6.125 19.9121 5.84375 19.7559 5.625ZM10.2559 10.4375C6.84961 10.4375 3.69336 8.78125 1.81836 5.96875C3.69336 3.1875 6.84961 1.53125 10.2559 1.53125C13.6621 1.53125 16.8184 3.1875 18.6934 5.96875C16.8184 8.78125 13.6621 10.4375 10.2559 10.4375Z" />
                           </svg>
                         </span>
-                        35
+                        1035
                       </p>
                     </div>
                   </div>
@@ -99,75 +101,108 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      Innovatech
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Depuis quelque annee deja nous oeuvrons dans l'innovation technologique a travers la resolution des problemes dans les intreprises, les etablissements scolaire et chez les particulies.
+                    Depuis quelque annee deja nous fornissons le materiel informatique dans different secteurs d'activites: intreprises, etablissements scolaire et chez les particulies.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-01.jpg"
+                        src="/images/blog/blog-details-1.jpg"
                         alt="image"
                         fill
                         className="h-full w-full object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      {" "}
-                      malesuada{" "}
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      {" "}
-                      Amet dictum sit amet justo{" "}
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
-                  </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
-                  </h3>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
-                  </ul>
+                  <section className="pb-[120px] pt-[120px]">
+        <div className="container mb-10">
+        <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+          Nos differents produits en magasin
+        </p>
+          <div className="-mx-4 flex flex-wrap justify-center">
+            {produitData.map((blog) => (
+              <div
+                key={blog.id}
+                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+              >
+                <Listproduit blog={blog} />
+              </div>
+            ))}
+          </div>
+
+          <div
+            className="wow fadeInUp -mx-4 flex flex-wrap"
+            data-wow-delay=".15s"
+          >
+            <div className="w-full px-4">
+              <ul className="flex items-center justify-center pt-8">
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    Prev
+                  </a>
+                </li>
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    1
+                  </a>
+                </li>
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    2
+                  </a>
+                </li>
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    3
+                  </a>
+                </li>
+                <li className="mx-1">
+                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
+                    ...
+                  </span>
+                </li>
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    12
+                  </a>
+                </li>
+                <li className="mx-1">
+                  <a
+                    href="#0"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                  >
+                    Next
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+                
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                     La satisfaction de nos clients est une priorite absolut dans notre philosophie de travail. fait nous confiance et vous serez d'avantage surpris de notre efficacite.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -310,31 +345,7 @@ const BlogSidebarPage = () => {
                       </svg>
                     </span>
                   </div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
-                  <div className="items-center justify-between sm:flex">
-                    <div className="mb-5">
-                      <h4 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
-                      </h4>
-                      <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
-                      </div>
-                    </div>
-                    <div className="mb-5">
-                      <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
-                        Share this post :
-                      </h5>
-                      <div className="flex items-center sm:justify-end">
-                        <SharePost />
-                      </div>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -372,57 +383,50 @@ const BlogSidebarPage = () => {
                 <ul className="p-8">
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="Ordinateurs"
-                      image="/images/blog/post-01.jpg"
+                      title="Ordinateur Portable"
+                      image="/images/blog/lap.jpg"
                       slug="#"
-                      date="12 Feb 2025"
+                      date="HP pro original disque dure SSD Avec garantie de 1ans tous les capacites disposnible en stock"
                     />
                   </li>
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="Video Projecteurs."
-                      image="/images/blog/post-02.jpg"
+                      title="Mackbook Pro slim."
+                      image="/images/blog/mac.jpg"
                       slug="#"
-                      date="15 Feb, 2024"
+                      date="Macbook pro ultra slim avec 24H d'autonomie, processeur M1, M2, M3"
                     />
                   </li>
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
                     <RelatedPost
-                      title="Equipement reseau."
-                      image="/images/blog/post-02.jpg"
+                      title="Projecteur video portable."
+                      image="/images/blog/pro.jpg"
                       slug="#"
-                      date="15 Feb, 2024"
+                      date="Projecteur Video portable sans fil ultra puissant avec un redu en HD"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
-                    <RelatedPost
-                      title="Equipement reseau."
-                      image="/images/blog/post-02.jpg"
-                      slug="#"
-                      date="15 Feb, 2024"
-                    />
-                  </li>
+                 
                   <li>
                     <RelatedPost
-                      title="Camera de surveillance"
-                      image="/images/blog/post-03.jpg"
+                      title="Ecran de projection video"
+                      image="/images/blog/impr.webp"
                       slug="#"
-                      date="05 Jun, 2024"
+                      date="Ecran de projection video adapere pour les evenement tres solide"
                     />
                   </li>
                 </ul>
               </div>
-              {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                  Popular Category
+                 Categorie de produits
                 </h3>
                 <ul className="px-8 py-6">
-                  <li>
+                <li>
                     <a
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Tailwind Templates
+                     Video projecteur.
                     </a>
                   </li>
                   <li>
@@ -430,7 +434,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Landing page
+                      Scanner.
                     </a>
                   </li>
                   <li>
@@ -438,7 +442,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Startup
+                     Serveurs physiques.
                     </a>
                   </li>
                   <li>
@@ -446,7 +450,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Business
+                     Imprimante.
                     </a>
                   </li>
                   <li>
@@ -454,25 +458,79 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Multipurpose
+                      Camera de surveillance.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Datacenters.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Routeur.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Ordinateurs.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Commutateurs réseaux.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Baies de brassage.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#0"
+                      className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      Câbles
                     </a>
                   </li>
                 </ul>
-              </div> */}
+              </div>
               <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                  Popular Tags
+                 les plus vendus
                 </h3>
-                <div className="flex flex-wrap px-8 py-6">
-                  <TagButton text="Themes" />
-                  <TagButton text="UI Kit" />
-                  <TagButton text="Tailwind" />
-                  <TagButton text="Startup" />
-                  <TagButton text="Business" />
+                <div className="flex flex-wrap px-5 py-6">
+                  <TagButton text="Ordinateurs" />
+                  <TagButton text="serveur physique" />
+                  <TagButton text="conmutateur Reseau" />
+                  <TagButton text="Imprimente" />
+                  <TagButton text="Sanner" />
+                  <TagButton text="camera serveillance" />
+                  <TagButton text="Projecteur video" />
+                  <TagButton text="StarLink" />
+                  <TagButton text="photocopieuse" />
+                  <TagButton text="Telephone portable" />
+                  <TagButton text="Imac et mackbook" />
                 </div>
               </div>
 
-              <NewsLatterBox />
+              {/* <NewsLatterBox /> */}
             </div>
           </div>
         </div>

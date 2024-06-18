@@ -101,7 +101,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="/error"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Blog
@@ -116,6 +116,14 @@ const Footer = () => {
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       à propos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/about"
+                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    >
+                     contact@innovatechnologie.com
                     </a>
                   </li>
                 </ul>
@@ -144,14 +152,7 @@ const Footer = () => {
                       Politique de confidentialite
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Politique Remboursement
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -183,9 +184,10 @@ const Footer = () => {
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      à propos
+                      tel: +237 699251140
                     </a>
                   </li>
+                
                 </ul>
               </div>
             </div>
@@ -195,7 +197,7 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               By Melataguia Novic{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+              <a href="https://kourcier.com" rel="nofollow noopener">
                 2024 @Innova Tech Solution
               </a>
             </p>
